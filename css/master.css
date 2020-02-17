@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* , body{
+    color: rgba(39, 60, 117, 1);
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: rgba(39, 60, 117, 1);
+  font-size: 20px;
+}
+
+.header-title{
+    font-weight: bolder;
+    font-size: 36px;
+    padding: 20px 5px 5px 5px;
+    margin: 0;
+}
+
+.header-text{
+    mix-blend-mode: normal;
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: rgba(39, 60, 117, 1);
+    line-height: 26px;
+}
+
+.cta-area{
+    margin-top: 20px;
+}
+
+.cta-btn{
+    color: rgba(39, 60, 117, 1);
+    padding: 8px 35px 8px 35px;
+    font-weight: bolder;
+    border: 3px dashed rgba(39, 60, 117, 1);
+    margin: 0px;
+}
+
+.cta-coc{
+    font-size: smaller;
+}
+
+.no-shadows{
+    box-shadow: none !important;
+}
